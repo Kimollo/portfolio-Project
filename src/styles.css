@@ -51,6 +51,10 @@ p {
   font-size: 24px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 .content-container {
   padding: 160px 20px;
 }
@@ -105,6 +109,42 @@ p {
   padding: 120px 60px;
 }
 
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links :hover {
+  color: white;
+  background: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -113,6 +153,10 @@ p {
 
   h2 {
     font-size: 44px;
+  }
+
+  h4 {
+    font-size: 20px;
   }
 
   .hero {
@@ -127,5 +171,9 @@ p {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+
+  footer .contact-box {
+    padding: 30px;
   }
 }
