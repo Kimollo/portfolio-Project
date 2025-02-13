@@ -60,6 +60,10 @@ p {
   line-height: 80px;
 }
 
+.logo {
+  max-width: 150px;
+}
+
 .content-container h2 {
   font-size: 18px;
   line-height: 80px;
@@ -72,6 +76,11 @@ p {
 
 .content-container img {
   border-radius: 10px;
+  max-width: 560px 560px;
+}
+
+.active {
+  color: var(--branding-color) !important;
 }
 
 .btn-branding {
