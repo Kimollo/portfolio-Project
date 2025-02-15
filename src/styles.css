@@ -12,7 +12,6 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   color: black;
@@ -33,7 +32,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
   font-family: poppins;
 }
 
@@ -51,12 +50,12 @@ p {
   font-size: 24px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .content h1 {
@@ -155,12 +154,8 @@ footer .social-links :hover {
     font-size: 44px;
   }
 
-  h4 {
+  h3 {
     font-size: 20px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .project_description {
