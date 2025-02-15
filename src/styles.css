@@ -79,7 +79,7 @@ h3 {
 
 .content-container img {
   border-radius: 10px;
-  max-width: 560px 560px;
+  width: 510px;
 }
 
 .active {
